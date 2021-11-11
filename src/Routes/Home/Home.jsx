@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import BannerPop from '../../Components/Banner/Banner'
 
 const Home = () => {
-    return (
-        <div>
-            Home
-        </div>
-    )
-}
+  return (
+    <div>
+      <BannerPop />
+      
+    </div>
+  );
+};
 
 export default Home;
