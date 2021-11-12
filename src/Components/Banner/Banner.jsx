@@ -4,7 +4,7 @@ import "./Banner.css";
 
 const BannerPage = () => {
   return (
-    <div>
+    <div className="my__ban__lay">
       <Banner />
     </div>
   );

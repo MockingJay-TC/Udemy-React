@@ -1,12 +1,16 @@
 import { useState } from "react";
 import Countdown from "../../Helpers/Timer";
-import './Banner.css'
+import "./Banner.css";
 
 const Banner = () => {
   const [show, setShow] = useState(true);
   // const { startTimer } = Countdown();
   // console.log(Countdown)
   const { timerHours, timerMinutes, timerSeconds } = Countdown();
+
+  const closeBanner = () => {
+    setShow(false);
+  };
 
   return show ? (
     <div
@@ -20,9 +24,10 @@ const Banner = () => {
       </strong>
       <button
         type="button"
-        className="btn-close"
+        className="btn-close mt-3"
         data-bs-dismiss="alert"
         aria-label="Close"
+        onClick={() => closeBanner()}
       ></button>
     </div>
   ) : (
