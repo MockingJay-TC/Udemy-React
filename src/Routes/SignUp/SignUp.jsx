@@ -1,12 +1,16 @@
 import React from "react";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
+import SignUpComponent from "./SignUpComponent";
 
 const SignUp = () => {
-  return <div className="signUp">
-    <Navbar/>
-    <Footer/>
-  </div>;
+  return (
+    <div className="signUp">
+      <Navbar />
+      <SignUpComponent />
+      <Footer />
+    </div>
+  );
 };
 
 export default SignUp;
