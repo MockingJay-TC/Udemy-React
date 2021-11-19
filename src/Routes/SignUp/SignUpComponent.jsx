@@ -1,12 +1,12 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import { TextField, Button, Stack } from "@mui/material";
+import { TextField, Button } from "@mui/material";
+import './SignUp.css';
 
 const SignUpComponent = () => {
   return (
     <div className="signup__form row justify-content-center text-center mt-5">
-      <h3 className="mb-5">SignUp and Start Learning</h3>
-      <hr />
+      <h3>SignUp and Start Learning</h3>
       <Box
         className="mt-5"
         component="form"
@@ -43,7 +43,7 @@ const SignUpComponent = () => {
         <div className=" justify-content-end mt-2">
           <stack spacing={3} direction="row">
             <Button variant="text">Forgot Password</Button>{" "}
-            <Button variant="contained">Log In</Button>
+            <Button variant="contained">Sign Up</Button>
           </stack>
         </div>
       </Box>

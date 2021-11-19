@@ -8,7 +8,7 @@ const Countdown = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDate = new Date("November 13, 2021 00:00:00").getTime();
+    const countDate = new Date("November 23, 2021 00:00:00").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const gap = countDate - now;

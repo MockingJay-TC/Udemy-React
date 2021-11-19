@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -7,17 +7,17 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light my__nav">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/">
             <label>
-              <Link to="/">
+              <NavLink to="/">
                 <img
                   style={{ height: "30px" }}
                   src="assets/images/logo.svg"
                   alt="Udemy"
                 />
-              </Link>
+              </NavLink>
             </label>
-          </Link>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -32,19 +32,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/login">
+                <NavLink className="nav-link" to="/login">
                   Login
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/signup">
+                <NavLink className="nav-link" to="/signup">
                   SignUp
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item dropdown menu-item-has-children">
                 <a

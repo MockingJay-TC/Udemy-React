@@ -20,7 +20,7 @@
 }
 .toes {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
   position: relative;
   color: #0f7c90;
 }
@@ -37,6 +37,9 @@
   margin: 10px 10px 0px 20px;
   font-size: 14px;
   font-weight: 400;
+}
+.toes h5 a {
+  text-decoration: none;
 }
 
 .country {
