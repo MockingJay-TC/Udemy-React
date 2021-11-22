@@ -5,6 +5,7 @@ body {
 }
 
 #phoenix {
+  /* font-family: 'Poppins'; */
   box-sizing: border-box;
   position: relative;
   height: 100vh;
