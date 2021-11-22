@@ -1,9 +1,7 @@
 .footer__main {
   background-color: #1f1a1a;
-  overflow: hidden;
-  position: absolute;
   width: 100%;
-  bottom: 0;
+  border: 2px solid blue
 }
 
 .footer {
