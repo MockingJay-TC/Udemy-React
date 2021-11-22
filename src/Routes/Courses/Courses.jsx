@@ -9,6 +9,12 @@ const Courses = () => {
       <Course />
       <Course />
       <Course />
+      <Course />
+      <Course />
+      <Course />
+      <Course />
+      <Course />
+      <Course />
     </div>
   );
 };
