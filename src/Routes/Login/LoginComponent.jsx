@@ -4,7 +4,7 @@ import { TextField, Button } from "@mui/material";
 
 const LoginComponent = () => {
   return (
-    <div className="login__form row justify-content-center text-center mt-5">
+    <div className="login__form container text-center py-5 ">
       <h3>Log In to Your Udemy Account</h3>
       <Box
         className="mt-5"
@@ -33,7 +33,8 @@ const LoginComponent = () => {
         </div>
         <div className=" justify-content-end mt-2">
           <stack spacing={3} direction="row">
-            <Button variant="text">Forgot Password</Button> <Button variant="contained">Log In</Button>
+            <Button variant="text">Forgot Password</Button>{" "}
+            <Button variant="contained">Log In</Button>
           </stack>
         </div>
       </Box>

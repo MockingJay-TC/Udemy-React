@@ -1,9 +1,4 @@
 .login {
+  overflow-x: hidden;
   height: 100%;
-  width: 100%;
-
-}
-.login__form{
-    /* display: flex; */
-    height: auto;
 }

@@ -6,7 +6,7 @@ import LoginComponent from "./LoginComponent";
 
 const Login = () => {
   return (
-    <div className="login">
+    <div className="login d-flex flex-column justify-content-between">
       <Navbar />
       <LoginComponent />
       <Footer />
