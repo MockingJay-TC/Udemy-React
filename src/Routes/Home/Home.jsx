@@ -1,6 +1,6 @@
 import React from "react";
 import BannerPop from "../../Components/Banner/Banner";
-import Footer from "../../Components/Footer/Footer";
+// import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import Courses from "../../Routes/Courses/Courses";
 import "./Home.css";
@@ -11,7 +11,7 @@ const Home = () => {
       <BannerPop />
       <Navbar />
       <Courses />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

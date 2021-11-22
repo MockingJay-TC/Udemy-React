@@ -1,6 +1,11 @@
-* {
+body {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  min-height: 100vh;
 }
 
+#phoenix {
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+}

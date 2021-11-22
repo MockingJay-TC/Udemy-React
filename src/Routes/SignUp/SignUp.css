@@ -1,7 +1,4 @@
 .signUp {
-  /* height: 100vh; */
-  overflow: hidden;
-}
-.signup__form {
-  display: flex;
+  overflow-x: hidden;
+  height: 100%;
 }

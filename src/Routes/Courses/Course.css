@@ -1,9 +1,7 @@
 .my__course {
-  z-index: 999;
   padding: 15px 0px;
   border: 2px solid green;
-  height: 100%;
-  
+
 }
 .imgs {
   cursor: pointer;

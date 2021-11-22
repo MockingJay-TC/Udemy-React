@@ -7,13 +7,11 @@ import SignUp from "./Routes/SignUp/SignUp";
 const App = () => {
   return (
     <Router>
-      <div className="container_fluid">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+      </Routes>
     </Router>
   );
 };
