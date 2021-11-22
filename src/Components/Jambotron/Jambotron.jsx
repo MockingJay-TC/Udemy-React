@@ -5,7 +5,7 @@ const Jambotron = () => {
   return (
     <div className="p-3 mb-2 bg-dark text-white ">
       <div className="container">
-        <nav aria-label="breadcrumb">
+        <   nav aria-label="breadcrumb">
           <ol className="breadcrumb">
             <li className="breadcrumb-item " aria-current="page">
               Home
