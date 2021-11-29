@@ -4,7 +4,7 @@ const Learn = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="learn p-4 col-8 flex border">
+        <div className="learn p-4 col-lg-8 col-sm-12 flex border">
           <p className="fs-4 fw-bolder">What you'll learn</p>
           <div className="d-flex flex-wrap">
             <p className=" d-flex col-lg-6 col-md-12 m-0">

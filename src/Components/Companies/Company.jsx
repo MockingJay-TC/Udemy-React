@@ -4,7 +4,7 @@ const Company = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-8 p-4 my-4 flex border">
+        <div className="col-lg-8 col-sm-12 p-4 my-4 flex border">
           <p className="fs-6 fw-bold m-0">
             Top companiesoffer this course to their employees
           </p>

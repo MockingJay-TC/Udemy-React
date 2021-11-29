@@ -16,7 +16,7 @@ const Jambotron = () => {
           </ol>
         </nav>
         <div className="row content">
-          <div className="col-8">
+          <div className="col-lg-8 col-sm-12">
             <h2 className="my-2">The Complete 2022 Web Development Bootcamp</h2>
             <h6 className="fw-light">
               Become a Full-Stack Web Developer with just ONE course. HTML, CSS,

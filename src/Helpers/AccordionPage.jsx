@@ -50,7 +50,7 @@ export default function CustomizedAccordions() {
   };
 
   return (
-    <div className="mb-5 p-0 col-8">
+    <div className="mb-5 p-0 col-lg-8 col-sm-12">
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}

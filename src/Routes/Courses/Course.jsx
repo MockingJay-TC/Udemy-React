@@ -9,6 +9,8 @@ const Course = ({
   cover_image,
   categories,
   price,
+  bestseller,
+  hot_and_new,
 }) => {
   return (
     <div className="course col-md-4 col-sm-6 col-lg-3 col-xl-2 mt-3">
@@ -28,7 +30,18 @@ const Course = ({
             <div className="fas fa-star-half"></div>
           </div>
           <p className="pri">GH¢{price}</p>
-          <button className="seller"> Bestseller </button>
+          <div className="d-flex justify-content-between">
+            <div>
+              {bestseller ? (
+                <button className="seller"> Bestseller </button>
+              ) : (
+                ""
+              )}
+            </div>
+            <div>
+              {hot_and_new ? <button className="hot"> Hot & New </button> : ""}
+            </div>
+          </div>
         </div>
       </Link>
     </div>

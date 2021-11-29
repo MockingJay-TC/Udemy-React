@@ -28,6 +28,7 @@ const Courses = () => {
             certificate={course?.certificate}
             bestseller={course?.bestseller}
             duration={course?.duration}
+            hot_and_new={course?.hot_and_new}
           />
         );
       })}
