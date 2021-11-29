@@ -18,10 +18,13 @@ const Courses = () => {
       {courses.map((course) => {
         return (
           <Course
-            key={course.id}
-            name={course.name}
-            description={course.description}
-            instructors={course.instructors}
+            key={course?.id}
+            name={course?.name}
+            description={course?.description}
+            instructors={course?.instructors}
+            cover_image={course?.cover_image}
+            categories={course?.categories}
+            price={course?.price}
           />
         );
       })}
