@@ -12,7 +12,7 @@ const Navbar = () => {
               <NavLink to="/">
                 <img
                   style={{ height: "30px" }}
-                  src="assets/images/logo.svg"
+                  src="/assets/images/logo.svg"
                   alt="Udemy"
                 />
               </NavLink>

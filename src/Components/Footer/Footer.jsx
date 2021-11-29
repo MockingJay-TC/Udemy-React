@@ -47,7 +47,7 @@ const Footer = () => {
       <div className="sole">
         <div className="ground">
           <label className="udemy">
-            <img src="assets/images/logo.svg" style={{ height: "30px" }} />
+            <img src="/assets/images/logo.svg" style={{ height: "30px" }} />
           </label>
         </div>
         <div className="sand" style={{ color: "white" }}>

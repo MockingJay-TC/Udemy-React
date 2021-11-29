@@ -35,7 +35,7 @@ const Jambotron = () => {
             </div>
             <div className="fw-light my-1">
               <p className="m-0">
-                Created by <Link to="#">Angela Wu</Link>
+                Created by <Link to="/course/instructor">Angela Wu</Link>
               </p>
               <p className="m-0">English</p>
             </div>

@@ -4,6 +4,7 @@ import CourseDetails from "./Routes/CourseDetails/CourseDetails";
 import Home from "./Routes/Home/Home";
 import Login from "./Routes/Login/Login";
 import SignUp from "./Routes/SignUp/SignUp";
+import Instructor from "./Routes/Instructor/Instructor";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/course" element={<CourseDetails />} />
+        <Route path="/course/instructor" element={<Instructor />} />
       </Routes>
     </Router>
   );

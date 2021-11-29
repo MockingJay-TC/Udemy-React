@@ -25,6 +25,9 @@ const Courses = () => {
             cover_image={course?.cover_image}
             categories={course?.categories}
             price={course?.price}
+            certificate={course?.certificate}
+            bestseller={course?.bestseller}
+            duration={course?.duration}
           />
         );
       })}
